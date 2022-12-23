@@ -123,7 +123,7 @@ def fast_adapt_integral(task, boundary, learner, adaptation_steps, device):
     return query_loss_r + query_loss_bc
 
 
-def fast_adapt_heat(task, boundary, learner, adaptation_steps, device,residual):
+def fast_adapt_heat(task, boundary, learner, adaptation_steps, device, residual):
     k=0.1
     lossfn = nn.MSELoss(reduction='mean')
 
