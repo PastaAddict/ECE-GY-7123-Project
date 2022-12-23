@@ -17,11 +17,12 @@ We provide pretrained models for each of the three problems. We provide examples
 
 In case we need to retrain a model, we can execute train.py and choose the problem (the hyperparameters are the ones we provide, to change them we need to edit train.py).
 
-'''
+
+```
 python train.py --PDE integral
 python train.py --PDE heat
 python train.py --PDE poisson
-'''
+```
 
  When executing the examples make sure to have the example.ipynb in the same directory as all other documents.
 
